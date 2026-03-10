@@ -1,229 +1,256 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reanna Restaurant</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-  <header>
-    <nav class="navbar">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" type="img/jpg" href="./img/logo.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="./index.html">Reanna Restaurant</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./menu.html" class="active">Menu</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="menu">
+        <div class="container">
+          <h1 class="menu-title">Our Menu</h1>
+          <div class="menu-section">
+            <h2>Appetizers</h2>
+            <ul>
+              <li class="menu-item">
+                <img src="./img/mozzarella.jpg" alt="Mozzarella Sticks" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Mozzarella Sticks</span>
+                    <span class="price">PHP 220</span>
+                  </div>
+                  <p>
+                    Crispy golden sticks filled with rich melted cheese. Served
+                    hot and perfectly fried.
+                  </p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/nachos.webp" alt="Nachos" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Nachos</span>
+                    <span class="price">PHP 140</span>
+                  </div>
+                  <p>
+                    Crispy tortilla chips topped with melted cheese and
+                    flavorful seasonings.
+                  </p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/quesadilla.jpg" alt="Chicken Quesadilla" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Chicken Quesadilla</span>
+                    <span class="price">PHP 150</span>
+                  </div>
+                  <p>
+                    Grilled tortilla filled with seasoned chicken and melted
+                    cheese.
+                  </p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/fries.jpg" alt="French Fries" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">French Fries</span>
+                    <span class="price">PHP 90</span>
+                  </div>
+                  <p>Thick-cut potatoes fried golden and lightly salted.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-section">
+            <h2>Main Courses</h2>
+            <ul>
+              <li class="menu-item">
+                <img src="./img/seafood.jpg" alt="Seafood Paella" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Seafood Paella</span>
+                    <span class="price">PHP 1499</span>
+                  </div>
+                  <p>
+                    Rich and savory with aromatic saffron and smoky paprika.
+                  </p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/steak.jpg" alt="Garlic Butter Steak" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Garlic Butter Steak</span>
+                    <span class="price">PHP 1299</span>
+                  </div>
+                  <p>Juicy steak topped with flavorful garlic butter.</p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/crispy-pata.jpg" alt="Crispy Pata" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Crispy Pata</span>
+                    <span class="price">PHP 999</span>
+                  </div>
+                  <p>Deep-fried pork served with special dipping sauce.</p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/Pork-Sinigang.jpg" alt="Sinigang" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Sinigang</span>
+                    <span class="price">PHP 399</span>
+                  </div>
+                  <p>
+                    Sour soup made with tamarind broth and various vegetables
+                    and proteins.
+                  </p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/wings.jpg" alt="Chicken Wings" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Chicken Wings</span>
+                    <span class="price">PHP 399</span>
+                  </div>
+                  <p>
+                    Crispy, golden wings served hot with flavorful sauce and a
+                    side of dipping sauce.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-section">
+            <h2>Salads</h2>
+            <ul>
+              <li class="menu-item">
+                <img src="./img/chicken.jpg" alt="Chicken Caesar Salad" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Chicken Caesar Salad</span>
+                    <span class="price">PHP 249</span>
+                  </div>
+                  <p>
+                    Crisp romaine lettuce with grilled chicken and Parmesan.
+                  </p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/Greek.jpg" alt="Greek Salad" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Greek Salad</span>
+                    <span class="price">PHP 299</span>
+                  </div>
+                  <p>
+                    Fresh vegetables with feta cheese and olive oil dressing.
+                  </p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/green.jpg" alt="Green Salad" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Green Salad</span>
+                    <span class="price">PHP 299</span>
+                  </div>
+                  <p>
+                    Fresh mixed greens with crisp vegetables, lightly tossed in
+                    a refreshing house dressing.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-section">
+            <h2>Drinks</h2>
+            <ul>
+              <li class="menu-item">
+                <img src="./img/wine.jpg" alt="Red Wine" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Red Wine</span>
+                    <span class="price">PHP 1299</span>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/espresso.jpg" alt="Espresso" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Espresso</span>
+                    <span class="price">PHP 129</span>
+                  </div>
+                  <p>Bold, concentrated shot of rich coffee.</p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/americano.jpg" alt="Americano" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Americano</span>
+                    <span class="price">PHP 129</span>
+                  </div>
+                  <p>
+                    Smooth espresso blended with hot water for a rich,
+                    full-bodied coffee with a lighter finish.
+                  </p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/latte.jpeg" alt="Iced Cafe Latte" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Iced Cafe Latte</span>
+                    <span class="price">PHP 139</span>
+                  </div>
+                  <p>Smooth espresso blended with chilled milk over ice.</p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <img src="./img/lemonade.jpeg" alt="Blue Lemonade" />
+                <div class="menu-content">
+                  <div class="menu-header">
+                    <span class="dish">Blue Lemonade</span>
+                    <span class="price">PHP 149</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
       <div class="container">
-        <div class="logo">
-          <a href="./index.html">Reanna Restaurant</a>
-        </div>
-        <ul class="nav-links">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./menu.html" class="active">Menu</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-        </div>
-        </nav>
-  </header>
-  <main>
-  <section class="menu">
-    <div class="container">
-      <h1 class="menu-title">Our Menu</h1>
-      <div class="menu-section">
-        <h2>Appetizers</h2>
-        <ul>
-          <li class="menu-item">
-            <img src="./img/mozzarella.jpg" alt="Mozzarella Sticks">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Mozzarella Sticks</span>
-                <span class="price">PHP 220</span>
-              </div>
-              <p>Crispy golden sticks filled with rich melted cheese. Served hot and perfectly fried.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/nachos.webp" alt="Nachos">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Nachos</span>
-                <span class="price">PHP 140</span>
-              </div>
-              <p>Crispy tortilla chips topped with melted cheese and flavorful seasonings.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/quesadilla.jpg" alt="Chicken Quesadilla">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Chicken Quesadilla</span>
-                <span class="price">PHP 150</span>
-              </div>
-              <p>Grilled tortilla filled with seasoned chicken and melted cheese.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/fries.jpg" alt="French Fries">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">French Fries</span>
-                <span class="price">PHP 90</span>
-              </div>
-              <p>Thick-cut potatoes fried golden and lightly salted.</p>
-            </div>
-          </li>
-        </ul>
+        <p>&copy; 2026 Reanna Restaurant. All rights reserved.</p>
       </div>
-
-      <div class="menu-section">
-        <h2>Main Courses</h2>
-        <ul>
-
-          <li class="menu-item">
-            <img src="./img/seafood.jpg" alt="Seafood Paella">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Seafood Paella</span>
-                <span class="price">PHP 1499</span>
-              </div>
-              <p>Rich and savory with aromatic saffron and smoky paprika.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/steak.jpg" alt="Garlic Butter Steak">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Garlic Butter Steak</span>
-                <span class="price">PHP 1299</span>
-              </div>
-              <p>Juicy steak topped with flavorful garlic butter.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/crispy-pata.jpg" alt="Crispy Pata">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Crispy Pata</span>
-                <span class="price">PHP 999</span>
-              </div>
-              <p>Deep-fried pork served with special dipping sauce.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/Pork-Sinigang.jpg" alt="Sinigang">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Sinigang</span>
-                <span class="price">PHP 399</span>
-              </div>
-              <p>Sour soup made with tamarind broth and various vegetables and proteins.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/wings.jpg" alt="Chicken Wings">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Chicken Wings</span>
-                <span class="price">PHP 399</span>
-              </div>
-              <p>Crispy, golden wings served hot with flavorful sauce and a side of dipping sauce.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="menu-section">
-        <h2>Salads</h2>
-        <ul>
-          <li class="menu-item">
-            <img src="./img/chicken.jpg" alt="Chicken Caesar Salad">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Chicken Caesar Salad</span>
-                <span class="price">PHP 249</span>
-              </div>
-              <p>Crisp romaine lettuce with grilled chicken and Parmesan.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/Greek.jpg" alt="Greek Salad">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Greek Salad</span>
-                <span class="price">PHP 299</span>
-              </div>
-              <p>Fresh vegetables with feta cheese and olive oil dressing.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/green.jpg" alt="Green Salad">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Green Salad</span>
-                <span class="price">PHP 299</span>
-              </div>
-              <p>Fresh mixed greens with crisp vegetables, lightly tossed in a refreshing house dressing.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="menu-section">
-        <h2>Drinks</h2>
-        <ul>
-          <li class="menu-item">
-            <img src="./img/wine.jpg" alt="Red Wine">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Red Wine</span>
-                <span class="price">PHP 1299</span>
-              </div>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/espresso.jpg" alt="Espresso">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Espresso</span>
-                <span class="price">PHP 129</span>
-              </div>
-              <p>Bold, concentrated shot of rich coffee.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/americano.jpg" alt="Americano">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Americano</span>
-                <span class="price">PHP 129</span>
-              </div>
-              <p>Smooth espresso blended with hot water for a rich, full-bodied coffee with a lighter finish.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/latte.jpeg" alt="Iced Cafe Latte">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Iced Cafe Latte</span>
-                <span class="price">PHP 139</span>
-              </div>
-              <p>Smooth espresso blended with chilled milk over ice.</p>
-            </div>
-          </li>
-          <li class="menu-item">
-            <img src="./img/lemonade.jpeg" alt="Blue Lemonade">
-            <div class="menu-content">
-              <div class="menu-header">
-                <span class="dish">Blue Lemonade</span>
-                <span class="price">PHP 149</span>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-</main>
-  <footer>
-    <div class="container">
-     <p>&copy; 2026 Reanna Restaurant. All rights reserved.</p>
-     </div> 
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
